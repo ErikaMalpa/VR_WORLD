@@ -1,7 +1,7 @@
 # VR_WORLD
 
 | Contributors | Contacts|
-| ------|------|------|
+| ------|------|
 | Erika Secillano | erika.secillano@stud.h-da.de |
 | Jonathan Noble||
 | Pia Ofalsa|| 
