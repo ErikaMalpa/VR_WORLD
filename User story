@@ -1,0 +1,11 @@
+Role: As a space man:
+Requirement: I want to view the amount of map pieces collected
+Reason: combine to locate the resource centre to rebuild his compound
+
+Role:As a Space man
+Requirement :want to view and collect oxygen
+Reason:To sustain life in space.
+
+Role: As a Space man
+Requirement: I want to view my current location on the map
+Reason: To know my current location
