@@ -1,0 +1,20 @@
+Acceptance Criteria:
+-A spaceman should see a map that 
+that resembles their their current location 
+-It consist of a map that fits within a square box
+And has a spaceman icon that represent the space man
+-The spaceman icon should move in relation to and in 
+Proportion to the game players position.
+
+Edge cases: 
+If the spaceman dies it the spaceman icon will fade away from the map
+
+Acceptance Criteria:
+-A spaceman should their current oxygen level
+that resembles how much oxygen they have left
+-it consist of a bar and displays their oxygen level within
+- the oxygen level will decrease depending on how long the 
+the space man has been since it was last filled 
+
+Edge cases: 
+If the spaceman runs out of oxygen then the spaceman will die
