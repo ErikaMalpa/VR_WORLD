@@ -30,7 +30,7 @@ public class Spawner : MonoBehaviour
         while (!end)
         {
             randomAsteroids = Random.Range(0, 2);
-            Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), 1, Random.Range(-spawnValues.z, spawnValues.z));
+            Vector3 spawnPosition = new Vector3(1, Random.Range(-spawnValues.y, spawnValues.y), Random.Range(-spawnValues.z, spawnValues.z));
             Instantiate(asteroids[randomAsteroids], spawnPosition + transform.TransformPoint(0, 0, 0), gameObject.transform.rotation);
             yield return new WaitForSeconds(spawnWait);
         }
