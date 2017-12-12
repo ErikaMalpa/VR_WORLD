@@ -1,0 +1,13 @@
+TODO for inventory system:
+
+-create a way to define and store items(item database)
+-create a way to add items to player inventory (inventory List)
+-create a simple visual for the current items in inventory (text display)
+-generate a grid of slots that will later display our inventory
+-populate the slots with the player's inventory
+-create a system for displaying item info(tooltips)
+-create a method for detecting if our player has a specific item
+-create a method for removing a specific item from inventory
+-create a way to use consumable item(oxygen or whatever)
+-create a way to equip a specific weapon/item(maybe a specific inventory slot)
+-work on drag and drop rearranging of items in inventory
