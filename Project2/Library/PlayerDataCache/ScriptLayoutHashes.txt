@@ -1,4 +1,4 @@
-iOS
+Android
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -12,6 +12,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.StereoRenderEffect
+cb82bca10f5613b4b0df6ae373e4879a Assembly-CSharp.dll:.AsteroidMove
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -89,6 +90,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+eda6f27e062cdf94f58a471908cb0cb8 Assembly-CSharp.dll:.PickUp
 18b818a5eacfdcbea09d5a054be7238a Assembly-CSharp.dll:.GvrReticle
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -114,6 +116,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 9966abc051c891d18b7718dd82e9f4b0 Assembly-CSharp.dll:.GvrEye
 c766d9d9c796f29adf01e47161adb3fa Assembly-CSharp.dll:.GvrAudioListener
+4a798bf2924918429b1223f281b5930a Assembly-CSharp.dll:.PlayerMovement
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControllerDebugInfo
 8fa64cc223309ed2f4a36bf539f6415d Assembly-CSharp.dll:.ControllerDemoManager
 b7797416cbcf117e668abd95ec922572 Assembly-CSharp.dll:.GvrHead
@@ -149,9 +152,12 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrPreRender
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrPostRender
+d4227ebffaede7257ea14a13434d767a Assembly-CSharp.dll:.Spawner
 5d708ead9a8a3f8af542fec349ed718c Assembly-CSharp.dll:Gvr.Internal.EmulatorConfig
 8e38f8c57ef52d9c1215e48a936ff2d2 Assembly-CSharp.dll:.GvrAudioSource
 cf576a0f2e9f42b3e1dd8ff8a15fb1c8 Assembly-CSharp.dll:.StereoController
 48d9cb29675a27574e4fe611f241d896 Assembly-CSharp.dll:.GvrGaze
 2c55c416b95a86eb514342a26c40a72f Assembly-CSharp.dll:.GvrController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EmulatorClientSocket
+05524b8f659e7bfe5756d1335fec24ba UnityStore.dll:UnityEngine.Store.MainThreadDispatcher
+50667894c33b478dc38ae949114bb1e8 Assembly-CSharp.dll:AppStoresSupport.AppStoreSettings
