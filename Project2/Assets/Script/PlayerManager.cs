@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour {
 
+    int time = 10;
+
     //Health will be 100 percent
     public static int health = 100;
 
@@ -20,17 +22,17 @@ public class PlayerManager : MonoBehaviour {
     /// It repeats every 1 second
     /// </summary>
     void Start () {
-        InvokeRepeating("ReduceVitals", 1, 1);
+        InvokeRepeating("ReduceVitals", time, time);
 	}
 	
 	void ReduceVitals()
     {
-        oxygen = oxygen - 20;
+        oxygen = oxygen - 5;
         OxygenBar.value = oxygen;
         HealthBar.value = health;
         if (oxygen <= 0)
         {
-            health--;
+            health = health - 15;
         }
         if (health <= 0)
         {
