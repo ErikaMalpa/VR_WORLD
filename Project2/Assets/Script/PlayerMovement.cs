@@ -15,4 +15,5 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		transform.Translate(playerSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0f,playerSpeed *  Input.GetAxis("Vertical") * Time.deltaTime);
 	}
+		
 }
