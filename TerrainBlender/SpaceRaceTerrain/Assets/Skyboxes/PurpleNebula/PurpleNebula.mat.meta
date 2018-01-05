@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: 88ec9a13802800449aaf825aff3aadc7
 NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+fileFormatVersion: 2
+guid: 88ec9a13802800449aaf825aff3aadc7
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> 1b4b90e63f36ad2c9a2c837e2a7d4e1cf13b9a76
