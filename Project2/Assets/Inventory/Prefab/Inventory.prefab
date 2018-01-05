@@ -29,15 +29,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6943986857776d74283920f508184b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slots: 30
-  rows: 5
-  slotPaddingLeft: 2
-  slotPaddingTop: 2
-  slotSize: 40
-  slotPrefab: {fileID: 180144, guid: 6aed6d775ccb3ba4fab310db1a2b52b1, type: 2}
-  iconPrefab: {fileID: 141216, guid: 913829c6835fde445a549d1515a82a3f, type: 2}
-  canvas: {fileID: 0}
-  eventSystem: {fileID: 0}
 --- !u!114 &11473970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -78,7 +69,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 173970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44, y: -24.899994, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
