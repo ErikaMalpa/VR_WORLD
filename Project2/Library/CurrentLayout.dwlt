@@ -13,10 +13,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 43
     width: 1536
     height: 791
+=======
+    x: 8
+    y: 51
+    width: 1280
+    height: 687
+>>>>>>> mini_map branch init
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -45,7 +52,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 33
+=======
+  controlID: 87
+>>>>>>> mini_map branch init
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,8 +152,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1536
     height: 791
+=======
+    width: 1280
+    height: 687
+>>>>>>> mini_map branch init
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -209,7 +225,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 47
+=======
+  controlID: 88
+>>>>>>> mini_map branch init
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -233,7 +253,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 48
+=======
+  controlID: 35
+>>>>>>> mini_map branch init
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -309,10 +333,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 518
     width: 1202
     height: 294
+=======
+    x: 8
+    y: 466
+    width: 1001
+    height: 250
+>>>>>>> mini_map branch init
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -331,6 +362,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\fifimcjolly\Desktop\unityproj\VR_WORLD\Project2
   m_IsLocked: 0
   m_FolderTreeState:
@@ -338,6 +370,15 @@ MonoBehaviour:
     m_SelectedIDs: f4350000
     m_LastClickedID: 13812
     m_ExpandedIDs: 00000000f43500007636000002370000d6370000ea3900001a3a000000ca9a3bffffff7f
+=======
+  m_LastProjectPath: C:\Users\Butan\Documents\Code\Unity\VR_World\Project2
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 06360000
+    m_LastClickedID: 13830
+    m_ExpandedIDs: 00000000063600008836000014370000e6370000fa3900002a3a000000ca9a3bffffff7f
+>>>>>>> mini_map branch init
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +406,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f43500007636000002370000d6370000ea3900001a3a0000
+=======
+    m_ExpandedIDs: 00000000063600008836000014370000e6370000fa3900002a3a0000
+>>>>>>> mini_map branch init
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,10 +487,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1206
     y: 92
     width: 330
     height: 720
+=======
+    x: 1013
+    y: 100
+    width: 275
+    height: 616
+>>>>>>> mini_map branch init
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -475,15 +527,26 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 92
     width: 296
     height: 405
+=======
+    x: 8
+    y: 100
+    width: 246
+    height: 345
+>>>>>>> mini_map branch init
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 38ebffff00000000
+=======
+    m_ExpandedIDs: faeaffff00000000
+>>>>>>> mini_map branch init
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -528,10 +591,17 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 300
     y: 92
     width: 902
     height: 405
+=======
+    x: 258
+    y: 100
+    width: 751
+    height: 345
+>>>>>>> mini_map branch init
   m_SceneLighting: 1
   lastFramingTime: 8020.249155044556
   m_2DMode: 0
@@ -603,10 +673,17 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 300
     y: 92
     width: 902
     height: 405
+=======
+    x: 258
+    y: 100
+    width: 751
+    height: 345
+>>>>>>> mini_map branch init
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -615,10 +692,17 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -451
     m_HBaseRangeMax: 451
     m_VBaseRangeMin: -194
     m_VBaseRangeMax: 194
+=======
+    m_HBaseRangeMin: -375.5
+    m_HBaseRangeMax: 375.5
+    m_VBaseRangeMin: -164
+    m_VBaseRangeMax: 164
+>>>>>>> mini_map branch init
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -635,25 +719,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 902
       height: 388
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 451, y: 194}
+=======
+      width: 751
+      height: 328
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 375.5, y: 164}
+>>>>>>> mini_map branch init
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -451
       y: -194
       width: 902
       height: 388
+=======
+      x: -375.5
+      y: -164
+      width: 751
+      height: 328
+>>>>>>> mini_map branch init
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 902, y: 405}
+=======
+  m_LastWindowPixelSize: {x: 751, y: 345}
+>>>>>>> mini_map branch init
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
