@@ -1575,8 +1575,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1948a7441257007469e279c7dc1df57e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OxygenBar: {fileID: 0}
+  time: 10
   HealthBar: {fileID: 0}
+  OxygenBar: {fileID: 0}
 --- !u!4 &1185520595
 Transform:
   m_ObjectHideFlags: 0
