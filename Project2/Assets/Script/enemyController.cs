@@ -26,11 +26,24 @@ public class enemyController : MonoBehaviour
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), 0.1f);
 
             anim.SetBool("isIdle", false);
-            if(direction.magnitude > 5)
+            if(direction.magnitude > 2)
             {
                 this.transform.Translate(0, 0, 0.05f);
                 anim.SetBool("isWaling", true);
+                anim.SetBool("isAttacking", false);
             }
+            else
+            {
+                anim.SetBool("isAttacking", true);
+                anim.SetBool("isWaling", false);
+                PlayerManager.health = PlayerManager.health - 5;
+            }
+        }
+        else
+        {
+            anim.SetBool("isIdle", true);
+            anim.SetBool("isWaling", false);
+            anim.SetBool("isAttacking", true);
         }
     }
 }
