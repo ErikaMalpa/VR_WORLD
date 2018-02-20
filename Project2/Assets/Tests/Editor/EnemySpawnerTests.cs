@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using Assets.Script;
+using NSubstitute;
 using NUnit.Framework;
 using UnityEditor;
 using UnityEngine;
@@ -60,9 +62,24 @@ namespace Assets.Tests.Editor
 
             Assert.AreEqual(expectedPosition,spawnedEnemy.transform.position);
         
+      
         
+        }
 
-        
+        [UnityTest]
+        public IEnumerator _Instantiations_Occur_On_An_Interval()
+        {
+
+            var enemyPrefab = Resources.Load("Tests/enemy");
+            var enemySpawner = new GameObject().AddComponent<EnemySpawner>();
+
+            //construct method will setup state
+            enemySpawner.Construct(enemyPrefab, 1, 1);
+
+            yield return  new WaitForSeconds(0.75f);
+            var spawnedEnemy = GameObject.FindWithTag("Enemy");
+
+            Assert.IsNull(spawnedEnemy);
         }
 
         //will be run after test
