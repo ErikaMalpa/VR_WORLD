@@ -5,24 +5,35 @@ using UnityEngine;
 public class aiSpawn : MonoBehaviour {
 
     private float nextSpawnTime;
+    private int SpawnLimit = 15;
+    private int SpawnCount;
 
     [SerializeField]
-    private GameObject shamanPrefab;
+    private GameObject Prefab;
     [SerializeField]
     private float spawnDelay = 10;
 
     private void Update()
     {
-        if (ShouldSpawn())
+        if(SpawnCount <= SpawnLimit)
         {
-            Spawn();
+            if (ShouldSpawn())
+            {
+                Spawn();
+                float xp = Random.Range(0f, -100f);
+                float yp = 1f;
+                float zp = Random.Range(0f, 100f);
+                transform.position = new Vector3(xp, yp, zp);
+            }
         }
+        
     }
 
     private void Spawn()
     {
         nextSpawnTime = Time.time + spawnDelay;
-        Instantiate(shamanPrefab, transform.position, transform.rotation);
+        Instantiate(Prefab, transform.position, transform.rotation);
+        SpawnCount++;
     }
 
     private bool ShouldSpawn()

@@ -5,7 +5,7 @@ using UnityEngine;
 public class HealthPotion : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
-        PlayerManager.health += 10;
+        PlayerManager.health = PlayerManager.health + 10;
         Debug.Log("Added 10 health");
         Destroy(this.gameObject);
     }

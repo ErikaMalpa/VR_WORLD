@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class PlayerManager : MonoBehaviour
 {
 
-    int time = 1; //10
+    int time = 5; //10
 
     //Health will be 100 percent
     public static int health = 100;
@@ -29,12 +31,12 @@ public class PlayerManager : MonoBehaviour
 
     void ReduceVitals()
     {
-        oxygen = oxygen - 50; //5
+        oxygen = oxygen - 5; //5
         OxygenBar.value = oxygen;
         HealthBar.value = health;
         if (oxygen <= 0)
         {
-            health = health - 30; //15
+            health = health - 15; //15
         }
         if (health <= 0)
         {

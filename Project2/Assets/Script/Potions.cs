@@ -6,7 +6,7 @@ public class Potions : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        PlayerManager.oxygen += 25;
+        PlayerManager.oxygen = PlayerManager.oxygen + 25;
         Debug.Log("Added 25 oxygen");
         Destroy(this.gameObject);
     }
