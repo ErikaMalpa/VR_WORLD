@@ -884,7 +884,6 @@ GameObject:
   m_Component:
   - component: {fileID: 400116}
   - component: {fileID: 9500000}
-  - component: {fileID: 114188216610123400}
   m_Layer: 0
   m_Name: alien character
   m_TagString: Untagged
@@ -1945,15 +1944,3 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 65.8114, y: 68.70913, z: 76.74175}
   m_Center: {x: 0.653663, y: -4.798379, z: 54.79769}
---- !u!114 &114188216610123400
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ca1f25ca6394574b81543360004dba2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}

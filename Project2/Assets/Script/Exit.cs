@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// When the Quit game is pressed, the game will exit itself
+/// </summary>
 public class Exit : MonoBehaviour {
 
 

@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This class adds 10 to the players health level
+/// health is imported from the player manager
+/// When the player comes near the object, it will then be destroyed
+/// </summary>
 public class HealthPotion : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
