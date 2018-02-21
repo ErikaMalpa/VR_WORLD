@@ -25,10 +25,12 @@ public class VrLookWalk : MonoBehaviour {
         if (vrCamera.eulerAngles.x >= toggleAngle && vrCamera.eulerAngles.x > 90.0f)
         {
             moveForward = true;
+            GetComponent<AudioSource> ().UnPause();
         }
         else
         {
             moveForward = false;
+            GetComponent<AudioSource>().Pause();
         }
 
         if(moveForward)
