@@ -7,4 +7,22 @@
 | Pia Ofalsa|C15734155@mydit.ie| 
 | Tung Le|| 
 
-We are planning to create an interactive VR world using UNITY. 
+This VR Game is a survival game. 
+
+Here is the link for the video of the game:
+
+Design Patterns Used
+=
+
+
+Screenshots
+=
+
+Terrain
+=
+
+Unit Tests
+=
+
+Unity
+=
