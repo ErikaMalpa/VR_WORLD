@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerManager : MonoBehaviour {
 
+[SuppressMessage("StyleCop.CSharp.SpacingRules", "SA1027:TabsMustNotBeUsed", Justification = "Reviewed. Suppression is OK here.")]
+public class PlayerManager : MonoBehaviour {
     //
     public static PlayerManager instance = null;
 
