@@ -248,6 +248,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 		private void OnControllerColliderHit(ControllerColliderHit hit)
 		{
+			//if the player collides with an object it will 
 			IInventoryItem item = hit.collider.GetComponent<IInventoryItem> ();
 			if (item != null) {
 				Inventory.Additem(item);
@@ -270,7 +271,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 		void SetCountText()
 		{
-			countText.text = "Count: " + count.ToString ();
+			//display the number of gems collected
+			countText.text = "Gems Collected: " + count.ToString()+"/5";
 		}
 	}
 }
