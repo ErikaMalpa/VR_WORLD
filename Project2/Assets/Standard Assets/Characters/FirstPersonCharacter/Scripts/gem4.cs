@@ -21,6 +21,7 @@ public class gem4 : MonoBehaviour,IInventoryItem {
 
 	public void OnPickup()
 	{
+		//set object invisible when user collide with it
 		gameObject.SetActive (false);
 	}
 }
