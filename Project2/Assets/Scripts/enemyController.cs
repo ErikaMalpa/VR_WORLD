@@ -29,7 +29,6 @@ namespace Assets.Scripts
         private void OnTriggerEnter(Collider other)
         {
             Health = Health - 10;
-            //PlayerManager.health = PlayerManager.health - 5;
             PlayerManager.Health = PlayerManager.Health - 5;
             Debug.Log("You have been hit!");
         }
@@ -72,7 +71,7 @@ namespace Assets.Scripts
                 {
                     _animator.SetBool("isAttacking", true);
                     _animator.SetBool("isFloating", false);
-                
+
                 }
             }
             else
@@ -82,7 +81,7 @@ namespace Assets.Scripts
                 _animator.SetBool("isAttacking", false);
             }
 
-            if(Health <= 0)
+            if (Health <= 0)
             {
                 Destroy(gameObject);
             }

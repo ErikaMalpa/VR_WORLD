@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.Managers.PlayerManager
@@ -14,6 +15,8 @@ namespace Assets.Scripts.Managers.PlayerManager
 
         //Health will be 100 percent
         public static int Health = 100;
+        //Used this for testing
+        //public int Health { get; set; }
 
         //oxygen will be 100 percent
         public static int Oxygen = 100;
@@ -21,6 +24,15 @@ namespace Assets.Scripts.Managers.PlayerManager
         //Slider for oxygen and health bar
         public Slider OxygenBar;
         public Slider HealthBar;
+
+        /*
+         * This is used for testing
+        public PlayerManager(int health)
+        {
+            if (Health < 0) throw new ArgumentOutOfRangeException("health");
+            Health = health;
+        }
+        */
 
         // Use this for initialization
         /// <summary>
