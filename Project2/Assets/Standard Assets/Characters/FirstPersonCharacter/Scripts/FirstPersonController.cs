@@ -272,7 +272,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		void SetCountText()
 		{
 			//display the number of gems collected
-			countText.text = "Gems Collected: " + count.ToString()+"/5";
+			countText.text = "Count Text: " + count.ToString()+"/5";
 		}
 	}
 }
