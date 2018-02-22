@@ -5,7 +5,7 @@
 | Erika Secillano | erika.secillano@stud.h-da.de |
 | Jonathan Noble|c15487922@mydit.ie |
 | Pia Ofalsa|C15734155@mydit.ie| 
-| Tung Le|| C15469088@mydit.ie
+| Tung Le| C15469088@mydit.ie |
 
 This VR Game is a survival game. 
 
