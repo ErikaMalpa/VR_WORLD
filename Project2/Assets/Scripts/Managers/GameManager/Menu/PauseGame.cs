@@ -1,35 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 
-public class PauseGame : MonoBehaviour
+namespace Assets.Scripts.Managers.GameManager.Menu
 {
-
-    public Transform canvas;
-    public Transform Player;
-
-    void Update()
+    public class PauseGame : MonoBehaviour
     {
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            Pause();
-        }
-    }
 
-    public void Pause()
-    {
-        if (canvas.gameObject.activeInHierarchy == false)
+        public Transform Canvas;
+        public Transform Player;
+
+        void Update()
         {
-            canvas.gameObject.SetActive(true);
-            Time.timeScale = 0;
-            Player.GetComponent<FirstPersonController>().enabled = false;
+            if (Input.GetKeyDown(KeyCode.B))
+            {
+                Pause();
+            }
         }
-        else
+
+        public void Pause()
         {
-            canvas.gameObject.SetActive(false);
-            Time.timeScale = 1;
-            Player.GetComponent<FirstPersonController>().enabled = true;
+            if (Canvas.gameObject.activeInHierarchy == false)
+            {
+                Canvas.gameObject.SetActive(true);
+                Time.timeScale = 0;
+                Player.GetComponent<FirstPersonController>().enabled = false;
+            }
+            else
+            {
+                Canvas.gameObject.SetActive(false);
+                Time.timeScale = 1;
+                Player.GetComponent<FirstPersonController>().enabled = true;
+            }
         }
     }
 }

@@ -1,23 +1,24 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class Exit : MonoBehaviour {
+namespace Assets.Scripts.Managers.GameManager.Menu
+{
+    public class Exit : MonoBehaviour {
 
 
-    public void QuitGame()
-    {
-        Application.Quit();
-        Debug.Log("Exit");
-    }
+        public void QuitGame()
+        {
+            Application.Quit();
+            Debug.Log("Exit");
+        }
 
-    // Use this for initialization
-    void Start () {
+        // Use this for initialization
+        void Start () {
 		
-	}
+        }
 	
-	// Update is called once per frame
-	void Update () {
+        // Update is called once per frame
+        void Update () {
 		
-	}
+        }
+    }
 }
