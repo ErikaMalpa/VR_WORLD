@@ -4,8 +4,8 @@ using UnityEngine;
 using System;
 
 public interface IInventoryItem{
-	string Name{ get;}
-	Sprite Image { get;}
+ string Name{ get;}
+    Sprite Image { get;}
 	void OnPickup ();
 }
 

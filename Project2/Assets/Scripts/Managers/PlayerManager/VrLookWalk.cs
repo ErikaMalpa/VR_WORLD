@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VrLookWalk : MonoBehaviour {
+public class VRLookWalk : MonoBehaviour {
 
     public Transform vrCamera;
 

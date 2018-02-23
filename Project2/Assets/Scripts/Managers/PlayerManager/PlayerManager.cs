@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 namespace Assets.Scripts.Managers.PlayerManager
 {
+    using GameManager = global::GameManager;
+
     /// <summary>
     /// This class will control the health and oxygen of the player, We use Invoke repeating 
     /// to constantly reduce the players health and oxygen at a certain time (5)
@@ -61,8 +63,9 @@ namespace Assets.Scripts.Managers.PlayerManager
             if (Health <= 0)
             {
                 Debug.Log("You are Dead");
-                Application.LoadLevel("MainGame");
+                FindObjectOfType<GameManager>().EndGame();
             }
+
         }
 
         // Update is called once per frame

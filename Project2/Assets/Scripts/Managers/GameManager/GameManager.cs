@@ -7,12 +7,14 @@ public class GameManager : MonoBehaviour {
 
     bool gameHasEnded = false;
     public float restartDelay = 2f;
+    public GameObject panelGameOver;
 
 	public void EndGame()
     {
         if (gameHasEnded == false)
         {
             gameHasEnded = true;
+
             Debug.Log("GAME OVER");
             Invoke("Restart", restartDelay);
         }
@@ -21,7 +23,7 @@ public class GameManager : MonoBehaviour {
 
     void Restart()
     {
-        SceneManager.LoadScene("MainScreen");
+        SceneManager.LoadScene("MainGame");
 
     }
 }

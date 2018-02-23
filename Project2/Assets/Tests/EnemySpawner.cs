@@ -2,8 +2,10 @@
 using UnityEngine;
 using Random = System.Random;
 
-namespace Assets.Script
+namespace Assets.Tests
 {
+    using Assets.Script;
+
     public class EnemySpawner : MonoBehaviour {
 
         [SerializeField] private Object _enemyPrefab;
@@ -36,7 +38,7 @@ namespace Assets.Script
                 //create enemy from prefab
                 var enemy = PrefabUtility.InstantiatePrefab(_enemyPrefab) as GameObject;
 
-                enemy.transform.position = _circle.GetPositionOnBoundaryOfCircle(Random.Next(0, 361));
+                enemy.transform.position = this._circle.GetPositionOnBoundaryOfCircle(Random.Next(0, 361));
                 _timeSinceLastSpawn = 0;
             }
             _timeSinceLastSpawn += Time.deltaTime;
