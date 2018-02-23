@@ -156,9 +156,7 @@ a90e94673f50d2237c1b971c138660c6 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.ObjectResetter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameWin
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ControllerDebugInfo
 f043bd2af8953f954e82e99e9fbabe57 Assembly-CSharp.dll:Assets.Scripts.Spawner.aiSpawn
-8fa64cc223309ed2f4a36bf539f6415d Assembly-CSharp.dll:.ControllerDemoManager
 b7797416cbcf117e668abd95ec922572 Assembly-CSharp.dll:.GvrHead
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -177,7 +175,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 c614e2948a9cff52dfd48f2591954d7b Assembly-UnityScript.dll:.NewBehaviourScript
 2dbfd4f7836c7f6a79e17be5f4bf7969 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.WaypointCircuit
 783bf6d659235f53a950684dd61ab5b9 Assembly-CSharp.dll:.MouseLook
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Teleport
 ed94a67a0b150178670fa2165cfa8e60 Assembly-CSharp.dll:Assets.Scripts.Managers.PlayerManager.PlayerManager
 b1f0704fc1b542c80ecf3fa1bbf472a1 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
 f043bd2af8953f954e82e99e9fbabe57 Assembly-CSharp.dll:Assets.Scripts.Spawner.OxygenSpawner
