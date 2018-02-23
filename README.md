@@ -7,16 +7,22 @@
 | Pia Ofalsa|C15734155@mydit.ie| 
 | Tung Le| C15469088@mydit.ie |
 
+## DEMO Video of our Project
+[![Video](https://img.youtube.com/vi/_XfzyrmcO_c/0.jpg)](https://www.youtube.com/watch?v=_XfzyrmcO_c)
 
 ## Project Description
-Our group decided to use Unity to create our project as we thought it would be a fun way to learn the
-C# language.
+Our group decided to use Unity to create our project as we thought it would be a fun way to learn the C# language.
 
-This repository accomodates our group project which is a SURVIVAL VR GAME developed using Unity C# for Google Cardboard.
+This repository accommodates our group project which is a SURVIVAL VR GAME developed using Unity C# for Google Cardboard.
 The terrain in this game which is a representation of an abandoned planet was procedurally made using Blender.
 
 
 ### Game Objectives:
+Keep health status as full as possible
+Avoid monster creatures - they will reduce health
+Oxygen level decreases - must look for oxygen tank to replenish
+Collect Gems
+Find the teleport pad to go back to the spaceship
 
 ### Game Controls
 First person controller (FPS)
@@ -30,22 +36,24 @@ First person controller (FPS)
 - press arrow keys to walk
 - shift key to accelerate speed
 - space key to jump
- 
-Here is the link for the video of the game:
 
-## Design Patterns and Concepts used
-1.Creational Patterns - Singleton
-2.Delegates, Events and Singletons with Unity3D
-3.Coroutine
-4.Game Managers
-5.Used ReSharper for code inspection
-6.Test Runner
+## Design Patterns, Concepts and Resources used
+1. Creational Patterns - Singleton
+2. Delegates, Events and Singletons with Unity3D
+3. Coroutine
+4. Game Managers
+5. Used ReSharper for code inspection
+6. Test Runner
 
-
+- Unity 2017.3.0
+- Blender
+- Agile project management
+- Unit testing
+- .NET on VS 2017 
+- Resharper 
 
 
 ## Screenshots
-
 
 #### Snippet for the use of Test runner for unit testing
 
@@ -67,26 +75,9 @@ Here is the link for the video of the game:
 
 
 
-
-
 ## Struggles in VR Unity and use of Github
 - We had to teach ourselves how to use Unity and Blender as we have no prior experience with these technology
 - MobileVR did not work in the first time we attempted launching it in the Android - we thought it's the GVR SDK
 - Attempted modifying the build settings and the project settings
 - bluetooth controller not working
 - github - source controlling unity metadata files consumes so much of our time; tried YAML to prevent it
-
-
-
-
-
--unity
--blender
--Design patterns
--Agile project management
--unit testing
--c#
--resharper 
-
-
-
